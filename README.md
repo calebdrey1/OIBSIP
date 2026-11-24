@@ -1,33 +1,43 @@
-# OASIS INFOBYTE SIP INTERNSHIP
 
-**Intern:** Caleb Obene  
-**GitHub:** [calebdrey1](https://github.com/calebdrey1)  
-**Repository:** OIBSIP
+# Drey Builders Tech Solutions – Landing Page
 
-## About This Repository
+## Oasis Infobyte SIP Internship
+**Track:** Web Development & Designing  
+**Level:** Level 1  
+**Task:** Task 1 – Landing Page  
+**Developer:** Caleb Obene
 
-This repository contains my project tasks, practical exercises, and submissions completed during my Oasis Infobyte Student Internship Program (SIP).
+## Project Overview
 
-## Internship Track
+A modern, responsive landing page developed for Drey Builders Tech Solutions, a digital technology brand offering website development, custom web applications, graphic design, SEO optimization and digital marketing.
 
-Web Development & Designing
-
-## Technologies
-
+## Technologies Used
 - HTML5
 - CSS3
-- JavaScript
-- Python (where applicable)
-- Git and GitHub
+- CSS Flexbox
+- CSS Grid
+- Google Fonts
 
-## Project Submissions
+## Features
+- Sticky navigation bar
+- Hero section with call-to-action buttons
+- Six service cards
+- About section
+- Why Choose Us section
+- Contact section
+- Responsive mobile and desktop layouts
+- Consistent dark, white and red colour scheme
 
-Projects will be organized into individual folders as the internship progresses.
+## Project Structure
 
-## Objective
+- index.html – Website structure
+- style.css – Website styling and responsive layouts
 
-To strengthen my practical development skills, build real-world projects, and demonstrate my technical abilities through hands-on experience.
+## How to Run
 
----
+1. Download or clone the repository.
+2. Open the project folder in VS Code.
+3. Open index.html using Live Server or your browser.
 
-**Oasis Infobyte SIP Internship — 2026**
+## Internship Submission
+Oasis Infobyte Student Internship Program (SIP), 2026.
