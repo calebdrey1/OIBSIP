@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="A responsive temperature converter for Celsius, Fahrenheit and Kelvin.">
+    <meta name="author" content="Caleb Obene">
+
+    <title>Temperature Converter | Caleb Obene</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="logo">CALEB<span>.</span></a>
+
+            <span class="nav-label">OASIS INFOBYTE · TASK 03</span>
+        </nav>
+    </header>
+
+
+    <main class="main-container">
+
+        <section class="converter-section">
+
+            <div class="intro">
+                <p class="eyebrow">WEB DEVELOPMENT & DESIGNING</p>
+
+                <h1>
+                    Temperature
+                    <span>Converter.</span>
+                </h1>
+
+                <p>
+                    Convert temperatures between Celsius,
+                    Fahrenheit and Kelvin with ease.
+                </p>
+            </div>
+
+
+            <div class="converter-card">
+
+                <div class="card-heading">
+                    <div>
+                        <span class="small-label">TEMPERATURE TOOL</span>
+                        <h2>Convert Temperature</h2>
+                    </div>
+
+                    <div class="temperature-icon">°</div>
+                </div>
+
+
+                <form id="converter-form">
+
+                    <div class="form-group">
+
+                        <label for="temperature">
+                            Enter Temperature
+                        </label>
+
+                        <input
+                            type="number"
+                            id="temperature"
+                            placeholder="Enter a value"
+                            step="any"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="from-unit">
+                            Convert From
+                        </label>
+
+                        <select id="from-unit">
+                            <option value="Celsius">Celsius (°C)</option>
+                            <option value="Fahrenheit">Fahrenheit (°F)</option>
+                            <option value="Kelvin">Kelvin (K)</option>
+                        </select>
+
+                    </div>
+
+
+                    <div class="swap-indicator">
+                        <span>↓</span>
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="to-unit">
+                            Convert To
+                        </label>
+
+                        <select id="to-unit">
+                            <option value="Fahrenheit">Fahrenheit (°F)</option>
+                            <option value="Celsius">Celsius (°C)</option>
+                            <option value="Kelvin">Kelvin (K)</option>
+                        </select>
+
+                    </div>
+
+
+                    <button type="submit" class="convert-btn">
+                        Convert Temperature <span>→</span>
+                    </button>
+
+                </form>
+
+
+                <div class="error-message" id="error-message" role="alert"></div>
+
+
+                <div class="result-box" id="result-box" aria-live="polite">
+
+                    <span class="result-label">CONVERSION RESULT</span>
+
+                    <h3 id="result-value">--</h3>
+
+                    <p id="result-description">
+                        Your converted temperature will appear here.
+                    </p>
+
+                </div>
+
+
+                <button type="button" class="reset-btn" id="reset-btn">
+                    Reset Converter
+                </button>
+
+            </div>
+
+
+            <div class="converter-footer">
+                <span>DESIGNED & DEVELOPED BY CALEB OBENE</span>
+                <span>© <span id="current-year"></span></span>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
